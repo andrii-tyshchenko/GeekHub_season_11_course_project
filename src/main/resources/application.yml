@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+    path: /error
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/GeekHubCourse_Project
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    baseline-on-migrate: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: osbbhd4@gmail.com
+    password: kmozakwuaoaglpiu
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

@@ -1,0 +1,1 @@
+<p class="text-center" id="monthly_payment_of_building">${building_total?string('#,##0.00')} ₴</p>

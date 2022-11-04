@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    min-height: 100%;
+}
+main {
+    padding-bottom: 7rem;
+}
+.footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.color-marker-blue {
+    color: #0d6efd;
+}
+.signin_form,
+.signup-form,
+.reset_password_form{
+    width: 22rem;
+}
+.sidebar {
+    width: 250px;
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+}
+.settings {
+    width: 60%;
+}
+input[name="payment"] {
+    width: 5em;
+}
+input[name="square"] {
+    width: 4em;
+}
+input[name="apartmentId"] {
+    width: 4em;
+}
+#filter_input,
+#filter_input2 {
+    width: 9em;
+}
+#customers_table,
+#debtors_table,
+.fs-0_8{
+    font-size: 0.8rem;
+}
+div.scrollup {
+    position: fixed;
+    color: #fff;
+    background-color: #0d6efd;
+    right: 20px;
+    bottom: 2rem;
+    padding: 4px 10px;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+div.scrollup:hover {
+    background-color: #000;
+}
+#for_filter_by,
+#for_filter_by2 {
+    padding-bottom: 0.5rem;
+    float: right;
+    font-size: 0.8rem;
+}
+#for_numrows,
+#for_numrows2 {
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+#pagesControllers,
+#pagesControllers2 {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+.pagecontroller,
+.pagecontroller2 {
+    border-width: 1px;
+    border-color: #0d6efd;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #0d6efd;
+}
+.pagecontroller:hover,
+.pagecontroller2:hover,
+.currentPage,
+.currentPage2 {
+    background-color: #0d6efd;
+    color: white;
+}
